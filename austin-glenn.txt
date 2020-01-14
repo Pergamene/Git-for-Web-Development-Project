@@ -1,0 +1,96 @@
+https://codepen.io/Bastas/pen/LYEBRbd?editors=1100
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firstname-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+      tags that provide contextual meaning to a web page, like: header, footer, section.  These help developers understand what the tags are for better than generic div tags.  They also help screenreaders.
+    2. What is HTML used for? 
+      to provide organization to pages used for the web.
+    3. What is an attribute and where do we put it? 
+      An attribute provides additional information to tags. They go inside the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+      The most important header tag.  Normally it should only be used once.
+    5. Name two tags that have required attributes
+      'a', 'tag'
+    6. What do we put in the head of our HTML document? 
+      meta data, site title, links to style sheets
+    7. What is an id? 
+      Something you can give to a tag to reference later in HTML or CSS styling.  It can only be used once.
+    8. What elements can I add an id to? 
+      All of them.
+    9. How many times can I use the same id on a page? 
+      Once.
+    10. What is a class? 
+      Similar to an id, but can be used multiple times.
+    11. What elements can I add a class to? 
+      All of them.
+    12. How many times can I use the same class on a page? 
+      As many as you want.
+    13. How do I get my link to open in a new tab?
+      Use attribute: target="_blank"
+    14. What is the alt attribute used for?
+      To add alternative info to an element. Like text to an image to show if the image won't load.
+    15. How do I reference an id?
+      #id-name
+    16. What is the difference between a section and a div
+      A section is semantic and div is generic, functionally the do the same thing.
+    17. What is CSS used for? 
+      To style HTML pages.
+    18. How to we select an element? Example - every h2 on the page
+      h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+      The difference is an id can be used once and a class can be used multiple times. You can use an id to link to another section on the same page.  Classes are used to group styling between common elements.
+    20. How do we select classes in CSS?
+      .class-name
+    21. How do we select a p element with a single class of “human””?
+      p.human {}
+    22. What is a parent child selector? When would this be useful? 
+      It is used to select an element/class/id that is nested in another element/class/id. i.e. div p {} gets paragraphs inside divs.
+    23. How do you select all links within a div with the class of sidebar?
+      div.sidebar a {}
+    24. What is a pseudo selector?
+      A modifier to a selector for when in a specific state, i.e. :hover for when it is being hovered over.
+    25. What do we use the change the spacing between lines?
+      line-height
+    26. What do we use to change the spacing between letters?
+      letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+      text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+      div {
+        border: 1px dotted black;
+      }
+    29. How do I select everything on the page? 
+      * {}
+    30. How do I write a comment in CSS?
+      /* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+      pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+      ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+      rm - its a permenant delete.
+    34. Why should I use version control? 
+      It keeps a record, lets you safely make changes without messing up the working code, you can go back to working code if things to break, it helps when multiple developers are working on the same code base.
+    35. How often should I commit to github?
+      I do anytime I'm stepping away from the code for awhile.
+    36. What is the command we would use to push our repo up to github? 
+      git push
+    37. Walk me through Lambda's git flow. 
+      fork repo -> add TL as collaborator -> clone repo -> create branch -> submit PR -> add TL as reviewer -> TL will merge PR when done.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+      inline elements only take up as much space as they require.  block elements take up the width of the page no matter what the content is.
+    2. What happens when an element is positioned absolutely? 
+      It positions relative to the closest possitioned ancestor element.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+      display: inline-block;
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+      block: <h#>, <div>, <section>; inline: <a>, <br>; inline-block: button;
+    5. In your own words, explain the box model. What is the fix for the box model? 
+      It is the box all HTML elements are in.  The box can have a border, with padding being between the box content and the box border.  Margin is the space between this box and the surrounding boxes.
+--> 
